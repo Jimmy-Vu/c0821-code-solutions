@@ -1,7 +1,9 @@
 h4 {
   font-family: 'Brandon Grotesque', sans-serif;
-  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
   color: #ec655f;
+  text-align: center;
   letter-spacing: 1.5px;
 }
 
@@ -10,38 +12,48 @@ label {
 }
 
 span.inputTitle {
+  font-family: "Brandon Grotesque", sans-serif;
   font-size: 12px;
   font-weight: 500;
+  margin: 20px auto 10px 10px;
 }
 
 .inputText {
   border-color: lightgrey;
   border-radius: 5px;
   border-style: solid;
-  padding: 7px;
+  padding: 10px;
   width: 100%;
+  margin-bottom: 20px;
 
   /* Font */
-  color: lightgrey;
-  font-size: 17px;
+  color: rgb(184, 180, 180);
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .inputSelect {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
   border-radius: 5px;
   border-style: solid;
   width: 100%;
-  height: 30px;
+  height: 40px;
+  background-color: #f3f3f3;
 }
 
 #learn-more-form {
-  font-family: 'Brandon Grotesque', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #submitButton {
-  font-family: 'BrandonGrotesque', sans-serif;
+  font-family: "Brandon Grotesque", sans-serif;
   background-color: #ec655f;
   color: white;
   padding: 10px 20px;
@@ -51,6 +63,9 @@ span.inputTitle {
 }
 
 #submitButtonBox {
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: flex-end;
 }
