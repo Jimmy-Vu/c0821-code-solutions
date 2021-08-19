@@ -1,4 +1,3 @@
-
 h4 {
   font-family: 'Brandon Grotesque', sans-serif;
   text-align: center;
@@ -6,13 +5,11 @@ h4 {
   letter-spacing: 1.5px;
 }
 
-div {
-  width: 500px;
-
-  /* background-color: red; */
+label {
+  width: 50%;
 }
 
-.inputTitle {
+span.inputTitle {
   font-size: 12px;
   font-weight: 500;
 }
@@ -22,6 +19,7 @@ div {
   border-radius: 5px;
   border-style: solid;
   padding: 7px;
+  width: 100%;
 
   /* Font */
   color: lightgrey;
@@ -31,7 +29,8 @@ div {
 .inputSelect {
   border-radius: 5px;
   border-style: solid;
-  box-sizing: content-box;
+  width: 100%;
+  height: 30px;
 }
 
 #learn-more-form {
@@ -48,9 +47,10 @@ div {
   padding: 10px 20px;
   border-radius: 20px;
   border-style: none;
+  margin-top: 10px;
 }
 
 #submitButtonBox {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
