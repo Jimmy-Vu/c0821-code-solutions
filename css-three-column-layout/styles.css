@@ -1,0 +1,33 @@
+body {
+  background-color: #1996d9;
+}
+
+img {
+  max-width: 60px;
+  margin-top: 30px;
+}
+
+img.circle-background {
+  padding: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.column-one-third {
+  display: flex;
+  justify-content: center;
+  width: calc(100% / 3);
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
