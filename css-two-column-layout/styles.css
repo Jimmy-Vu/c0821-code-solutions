@@ -1,0 +1,41 @@
+.container {
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.header-center {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.info-items {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.row {
+  display: flex;
+}
+
+.info-images {
+  max-width: calc((100% / 10) * 2);
+  max-height: 150px;
+}
+
+.info-text {
+  width: calc((100% / 10) * 3);
+  position: relative;
+  top: 30px;
+}
+
+.column-one-tenth {
+  width: calc((100% / 10));
+}
+
+.row-divider {
+  height: 40px;
+}
