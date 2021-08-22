@@ -19,11 +19,12 @@ p {
 .container {
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 20px;
 }
 
 .circle-background {
-  max-width: 100%;
-  padding: 25px;
+  max-width: 80px;
+  padding: 10px;
   background-color: white;
   border-radius: 50%;
 }
@@ -41,7 +42,8 @@ p {
 
 .column-one-third {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: calc(100% / 3);
   color: white;
   font-family: 'Lato', sans-serif;
@@ -50,6 +52,5 @@ p {
 }
 
 .textInfo {
-  padding: auto 10px;
   text-align: center;
 }
