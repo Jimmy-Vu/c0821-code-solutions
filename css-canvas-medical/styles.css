@@ -28,7 +28,7 @@ hr {
 }
 
 .container {
-  margin: 40px 5%;
+  margin: 40px 10%;
   background-color: white;
   font-family: 'Avenir', sans-serif;
 }
@@ -51,18 +51,17 @@ hr {
   font-weight: 300;
   font-size: large;
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 15%;
   width: 35%;
 }
 
 #hero-text {
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 15%;
   color: white;
   width: 45%;
-  font-size: 15px;
   line-height: 1.5rem;
 }
 
