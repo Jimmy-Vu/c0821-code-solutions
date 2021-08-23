@@ -31,6 +31,12 @@ p {
 
 .row {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .column-full {
@@ -41,16 +47,14 @@ p {
 }
 
 .column-one-third {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   width: calc(100% / 3);
-  color: white;
-  font-family: 'Lato', sans-serif;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .textInfo {
   text-align: center;
+}
+
+#main-row {
+  display: flex;
+  flex-direction: row;
 }
