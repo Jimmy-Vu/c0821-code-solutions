@@ -13,7 +13,7 @@ h1 {
 }
 
 .info-items {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
 }
 
@@ -27,7 +27,7 @@ h1 {
 }
 
 .info-text {
-  width: calc((100% / 10) * 3);
+  width: calc((100% / 10) * 2.5);
   position: relative;
   top: 30px;
 }
@@ -37,5 +37,20 @@ h1 {
 }
 
 .row-divider {
+  height: 40px;
+}
+
+.button-center {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button-text {
+  color: darkred;
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+  border: 3px solid darkred;
+  padding: 5px auto;
+  width: 20%;
   height: 40px;
 }
