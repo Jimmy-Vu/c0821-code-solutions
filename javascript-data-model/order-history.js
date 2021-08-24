@@ -1,12 +1,3 @@
-var orderFour = [
-  {
-    name: 'GameCube Controller'
-  },
-  {
-    name: 'The Art of Sql'
-  }
-];
-
 var orderHistory = [
   {
     name: 'Javascript for impatient programmers',
@@ -59,7 +50,10 @@ var orderHistory = [
         subtotal: 94.95,
         returnWindowOpen: false,
         returnWindowDate: 'Aug 4, 2020',
-        reviewWritten: false
+        reviewWritten: false,
+        grandTotal: 138.93,
+        recipient: 'JS Masher',
+        orderNumber: '113-2883177-2648248'
       },
       {
         name: 'The Art of Sql',
@@ -70,12 +64,11 @@ var orderHistory = [
         subtotal: 33.99,
         returnWindowOpen: false,
         returnWindowDate: 'Aug 4, 2020',
-        reviewWritten: false
+        reviewWritten: false,
+        grandTotal: 138.93,
+        recipient: 'JS Masher',
+        orderNumber: '113-2883177-2648248'
       }
-    ],
-    grandTotal: 138.93,
-    recipient: 'JS Masher',
-    orderNumber: '113-2883177-2648248',
-    reviewWritten: false
+    ]
   }
 ];
