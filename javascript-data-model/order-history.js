@@ -1,7 +1,5 @@
 var orderHistory = [
   {
-    name: 'Javascript for impatient programmers',
-    author: 'Dr. Axel Rauschmayer',
     orderDate: 'August 4, 2020',
     ifDelivered: true,
     deliveryDate: 'August 8,2020',
@@ -11,11 +9,14 @@ var orderHistory = [
     orderNumber: '114-3941689-8772232',
     returnWindowOpen: false,
     returnWindowDate: 'Sep 7, 2020',
-    reviewWritten: false
+    reviewWritten: false,
+    itemInfo: {
+      type: 'book',
+      name: 'Javascript for impatient programmers',
+      author: 'Dr. Axel Rauschmayer'
+    }
   },
   {
-    name: 'The Timeless Way of Building',
-    author: 'Christopher Alexander',
     orderDate: 'July 19, 2020',
     ifDelivered: true,
     deliveryDate: 'July 20,2020',
@@ -25,10 +26,14 @@ var orderHistory = [
     orderNumber: '113-9984268-1280257',
     returnWindowOpen: false,
     returnWindowDate: 'Aug 19, 2020',
-    reviewWritten: false
+    reviewWritten: false,
+    itemInfo: {
+      type: 'book',
+      name: 'The Timeless Way of Building',
+      author: 'Christopher Alexander'
+    }
   },
   {
-    name: 'Gamecube Controller Adapter',
     orderDate: 'July 4, 2020',
     ifDelivered: true,
     deliveryDate: 'July 7,2020',
@@ -38,12 +43,15 @@ var orderHistory = [
     orderNumber: '114-2875557-9059409',
     returnWindowOpen: false,
     returnWindowDate: 'Aug 5, 2020',
-    reviewWritten: false
+    reviewWritten: false,
+    itemInfo: {
+      type: 'electronic',
+      name: 'Gamecube Controller Adapter'
+    }
   },
   {
     orderFourContent: [
       {
-        name: 'Gamecube Controller - Super Smash Bros. Edition',
         orderDate: 'July 3, 2020',
         ifDelivered: true,
         deliveryDate: 'July 5,2020',
@@ -53,11 +61,13 @@ var orderHistory = [
         reviewWritten: false,
         grandTotal: 138.93,
         recipient: 'JS Masher',
-        orderNumber: '113-2883177-2648248'
+        orderNumber: '113-2883177-2648248',
+        itemInfo: {
+          type: 'electronic accessory',
+          name: 'Gamecube Controller - Super Smash Bros. Edition'
+        }
       },
       {
-        name: 'The Art of Sql',
-        author: 'Stephane Faroult',
         orderDate: 'July 3, 2020',
         ifDelivered: true,
         deliveryDate: 'July 5,2020',
@@ -67,7 +77,12 @@ var orderHistory = [
         reviewWritten: false,
         grandTotal: 138.93,
         recipient: 'JS Masher',
-        orderNumber: '113-2883177-2648248'
+        orderNumber: '113-2883177-2648248',
+        itemInfo: {
+          type: 'book',
+          name: 'The Art of Sql',
+          author: 'Stephane Faroult'
+        }
       }
     ]
   }
