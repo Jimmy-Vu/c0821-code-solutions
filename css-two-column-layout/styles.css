@@ -13,7 +13,7 @@ h1 {
 }
 
 .info-items {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: 10%;
 }
 
@@ -32,12 +32,10 @@ h1 {
   top: 30px;
 }
 
-.column-one-tenth {
-  width: calc((100% / 10));
-}
-
-.row-divider {
-  height: 40px;
+.column-one-half {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% / 2);
 }
 
 .button-center {
