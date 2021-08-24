@@ -1,5 +1,4 @@
-var colors;
-colors = ['red', 'white', 'blue'];
+var colors = ['red', 'white', 'blue'];
 
 console.log('value of colors[0]:', colors[0]);
 console.log('value of colors[1]:', colors[1]);
