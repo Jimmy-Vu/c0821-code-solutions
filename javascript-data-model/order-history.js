@@ -50,39 +50,26 @@ var orderHistory = [
     }
   },
   {
-    orderFourContent: [
+    orderDate: 'July 3, 2020',
+    ifDelivered: true,
+    deliveryDate: 'July 5,2020',
+    returnWindowOpen: false,
+    returnWindowDate: 'Aug 4, 2020',
+    reviewWritten: false,
+    grandTotal: 138.93,
+    recipient: 'JS Masher',
+    orderNumber: '113-2883177-2648248',
+    itemInfo: [
       {
-        orderDate: 'July 3, 2020',
-        ifDelivered: true,
-        deliveryDate: 'July 5,2020',
-        subtotal: 94.95,
-        returnWindowOpen: false,
-        returnWindowDate: 'Aug 4, 2020',
-        reviewWritten: false,
-        grandTotal: 138.93,
-        recipient: 'JS Masher',
-        orderNumber: '113-2883177-2648248',
-        itemInfo: {
-          type: 'electronic accessory',
-          name: 'Gamecube Controller - Super Smash Bros. Edition'
-        }
+        type: 'electronic accessory',
+        name: 'Gamecube Controller - Super Smash Bros. Edition',
+        subtotal: 94.95
       },
       {
-        orderDate: 'July 3, 2020',
-        ifDelivered: true,
-        deliveryDate: 'July 5,2020',
-        subtotal: 33.99,
-        returnWindowOpen: false,
-        returnWindowDate: 'Aug 4, 2020',
-        reviewWritten: false,
-        grandTotal: 138.93,
-        recipient: 'JS Masher',
-        orderNumber: '113-2883177-2648248',
-        itemInfo: {
-          type: 'book',
-          name: 'The Art of Sql',
-          author: 'Stephane Faroult'
-        }
+        type: 'book',
+        name: 'The Art of Sql',
+        author: 'Stephane Faroult',
+        subtotal: 33.99
       }
     ]
   }
