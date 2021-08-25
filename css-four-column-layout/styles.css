@@ -1,0 +1,47 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f6f7f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.center-self {
+  align-self: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-image {
+  width: calc(100% / 4);
+  align-self: center;
+}
+
+.column-one-fifth {
+  width: calc(100% / 5);
+}
+
+.margin-side-10 {
+  margin: auto 10px;
+}
