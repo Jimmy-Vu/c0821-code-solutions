@@ -15,11 +15,11 @@
       <div class="row">
         <img src="images/logo-blue.svg" width="130px"/>
         <nav>
-          <li>Product</li>
-          <li>Implementation</li>
-          <li>About Us</li>
-          <li>Blog</li>
-          <li><button id="contact-us-button">Contact Us</button></li>
+          <li><a>Product</a></li>
+          <li><a>Implementation</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Blog</a></li>
+          <li><button id="contact-us-button"><a>Contact Us</a></button></li>
         </nav>
       </div>
     </header>
@@ -31,29 +31,71 @@
         <h1>The EMR Reimagined for Primary Care</h1>
       </div>
       <div id="hero-text">
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eos autem vel a harum molestiae facilis voluptatum sed ipsa ullam magnam amet voluptatem illum explicabo qui ducimus quasi tempore dolore, commodi quisquam. Dolores veritatis omnis, officiis repudiandae laboriosam repellendus ab a beatae, illo expedita optio earum nobis quo ex architecto.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eos autem vel a harum molestiae facilis voluptatum sed ipsa ullam magnam amet voluptatem illum explicabo qui ducimus quasi tempore dolore, commodi quisquam. Dolores veritatis omnis</p>
+      </div>
+      <div>
+        <button id="get-started-button-hero"><a>Get Started</a></button>
       </div>
     </div>
 
-    <div>
-      <div class="row justify-center">
-        <h2>Clinicians Prefer Canvas</h2>
+    <div class="location-container">
+      <div class="row">
+        <div class="text-center">
+          <h2 class="tiempo">Clinicians Prefer Canvas</h2>
+          <p class="small-paragraph">Physician-owned primary care practices across the country</p>
+          <p class="small-paragraph">have already made Canvas the fabric of their care.</p>
+        </div>
       </div>
+      <section class="flex-row">
+        <div>
+          <h4>Cascade Family Practice, Portland OR</h4>
+          <h4>Temecal Creek Medicine, Oakland CA</h4>
+          <h4>San Juan Healthcare, Friday Habor WA</h4>
+        </div>
+        <div>
+          <h4>Ward Medical Clinic, Bonifay FL</h4>
+          <h4>Caribou Medical, Towanda PA</h4>
+          <h4>Bay Tree Family Care, Red Bay AL</h4>
+        </div>
+      </section>
     </div>
 
-    <div id="address-block">
+    <div class="learn-more-container">
+      <h2 class="tiempo">Ready to learn more?</h2>
+      <p class="small-paragraph">Schedule a private meeting now</p>
+        <button id="get-started-button-learn-more"><a>Get Started</a></button>
+    </div>
+    <div class="address-container">
+      <section class="relative">
       <img src="images/logo-white.png" width="130px">
-      <div class="row flex-column">
-        <p>2307 Irving Street, Suite 228</p>
-        <p>San Francisco CA 94122</p>
-        <p>(800) 370-1416</p>
+      <div class="row">
+        <div class="column-one-fourth small-paragraph">
+          <p>2307 Irving Street, Suite 228</p>
+          <p>San Francisco CA 94122</p>
+          <p>(800) 370-1416</p>
+          <p>info@canvasmedical.com</p>
+        </div>
       </div>
+
+        <div id="company-links" class="column-one-fourth flex-column">
+          <h4>COMPANY</h4>
+            <p class="small-paragraph line-height-02"><a>About Us</a></p>
+            <p class="small-paragraph line-height-02"><a>Blog</a></p>
+        </div>
+        <div id="product-links" class="column-one-fourth flex-column">
+          <h4>PRODUCT</h4>
+          <p class="small-paragraph line-height-02"><a>Product</a></p>
+          <p class="small-paragraph line-height-02"><a>Implementation</a></p>
+          <p class="small-paragraph line-height-02"><a>For Health Plans</a></p>
+          <p class="small-paragraph line-height-02"><a>Security</a></p>
+        </div>
+      </section>
     </div>
 
     <footer>
       <ul class="row">
-        <li>Privacy &amp; Terms</li>
-        <li>Contact Us</li>
+        <li><a>Privacy &amp; Terms</a></li>
+        <li><a>Contact Us</a></li>
       </ul>
     </footer>
   </section>

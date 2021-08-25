@@ -1,5 +1,6 @@
 footer {
   background-color: #fafafa;
+  padding: 20px;
 }
 
 footer ul {
@@ -13,6 +14,7 @@ footer li {
 header li {
   list-style-type: none;
   margin-right: 20px;
+  color: #adadad;
 }
 
 nav {
@@ -27,6 +29,14 @@ hr {
   color: #e8e8ea;
 }
 
+h2 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+}
+
 .container {
   margin: 40px 10%;
   background-color: white;
@@ -39,8 +49,7 @@ hr {
 
 .text-center {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .hero-container {
@@ -48,10 +57,65 @@ hr {
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
+  position: relative;
+}
+
+.location-container {
+  margin-bottom: 40px;
+  background-color: #fafafa;
+}
+
+.learn-more-container {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.address-container {
+  background-color: #525250;
+  color: white;
+  padding: 80px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .flex-column {
+  display: flex;
   flex-direction: column;
+}
+
+.tiempo {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+.small-paragraph {
+  font-size: 14px;
+}
+
+.justify-end {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-one-fourth {
+  width: calc(100% / 4);
+}
+
+.column-three-fourth {
+  width: calc((100% / 4) * 3);
+}
+
+.relative {
+  position: relative;
+}
+
+.line-height-02 {
+  line-height: 0.2rem;
 }
 
 #hero-heading {
@@ -59,26 +123,19 @@ hr {
 
   /* font-family: 'Tiempos Headline', sans-serif; */
   font-weight: 300;
-  font-size: 24px;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 5%;
+  left: 10%;
   width: 35%;
 }
 
 #hero-text {
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 25%;
+  left: 10%;
   color: white;
   width: 40%;
   line-height: 1.5rem;
-  font-size: 20px;
-}
-
-#address-block {
-  background-color: #525250;
-  color: white;
 }
 
 #contact-us-button {
@@ -88,4 +145,42 @@ hr {
   padding: 10px;
   border-radius: 4px;
   border-width: 0;
+}
+
+#get-started-button-hero {
+  color: white;
+  background-color: #2a455f;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+#get-started-button-learn-more {
+  color: white;
+  background-color: #2a455f;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+}
+
+#company-links {
+  position: absolute;
+  right: 20%;
+  top: -10%;
+}
+
+#product-links {
+  position: absolute;
+  right: 1%;
+  top: -10%;
 }
