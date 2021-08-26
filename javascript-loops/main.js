@@ -11,7 +11,7 @@ function getNumbersToTen() {
   var currentNumber = 1;
 
   while (currentNumber <= 10) {
-    numbers[currentNumber - 1] = currentNumber;
+    numbers.push(currentNumber);
     currentNumber++;
   }
   return numbers;
@@ -22,7 +22,7 @@ function getEvenNumbersToTwenty() {
   var currentNumber = 2;
 
   while (currentNumber <= 20) {
-    evenNumbers[currentNumber / 2] = currentNumber;
+    evenNumbers.push(currentNumber);
     currentNumber += 2;
   }
   return evenNumbers;
@@ -49,7 +49,7 @@ function doubleAll(numbers) {
   var doubled = [];
 
   for (var i = 0; i < numbers.length; i++) {
-    doubled[i] = numbers[i] * 2;
+    doubled.push(numbers[i] * 2);
   }
   return doubled;
 }
@@ -59,7 +59,7 @@ function getKeys(object) {
 
   var x;
   for (x in object) {
-    keys[x] = object[x];
+    keys.push(object[x]);
   }
   return keys;
 }
@@ -69,7 +69,7 @@ function getValues(object) {
   var x;
 
   for (x in object) {
-    values[x] = object[x];
+    values.push(object[x]);
   }
   return values;
 }
