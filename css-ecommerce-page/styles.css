@@ -1,0 +1,32 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-sixth {
+  width: calc(100% / 7);
+}
+
+.margin-side-5px {
+  margin: auto 5px;
+}
+
+.grey-text {
+  color: #cecece;
+}
