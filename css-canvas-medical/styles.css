@@ -87,9 +87,8 @@ h4 {
   padding: 80px;
 }
 
-.flex-row {
+.justify-space-around {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -108,11 +107,6 @@ h4 {
 
 .color-dark-gray {
   color: #525250;
-}
-
-.justify-end {
-  display: flex;
-  flex-direction: row;
 }
 
 .column-one-fourth {
