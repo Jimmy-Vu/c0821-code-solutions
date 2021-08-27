@@ -3,9 +3,7 @@ function filterOutNulls(values) {
   var newArray = [];
 
   for (var i = 0; i < values.length; i++) {
-    if (values[i] === null) {
-      continue;
-    } else {
+    if (values[i] !== null) {
       newArray.push(values[i]);
     }
   }
