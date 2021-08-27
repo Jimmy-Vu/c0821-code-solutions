@@ -34,3 +34,7 @@ p {
 .grey-text {
   color: #cecece;
 }
+
+.item-info {
+  margin-bottom: 0;
+}
