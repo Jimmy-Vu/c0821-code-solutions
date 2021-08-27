@@ -21,18 +21,15 @@ function getWords(string) {
   var stringArray = [];
   var currentWord = '';
 
-  if (string.length === 0) {
-    return stringArray;
-  }
-
-  for (var i = 0; i <= string.length; i++) {
+  for (var i = 0; i < string.length; i++) {
     if (string[i] === ' ') {
       stringArray.push(currentWord);
       currentWord = '';
-    } else if (i === string.length) {
-      stringArray.push(currentWord);
     } else {
       currentWord += string[i];
+    }
+    if (i === string.length - 1) {
+      stringArray.push(currentWord);
     }
   }
   return stringArray;
