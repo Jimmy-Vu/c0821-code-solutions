@@ -5,10 +5,17 @@
 
   -create a storage for the new array
   -look at each element one by one
-  -if the element's index is not equal to 0, push the element into the new array
+   starting at the 1 index with the condition of the array length
+   being subtracted by one to account for disregard index 0
+  -push the element at the current index of the array into the new array
   -return the new array
 */
 
 function tail(array) {
+  var newArray = [];
 
+  for (var i = 1; i <= array.length - 1; i++) {
+    newArray.push(array[i]);
+  }
+  return newArray;
 }
