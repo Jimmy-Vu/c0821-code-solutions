@@ -13,8 +13,8 @@ h1 {
 }
 
 .info-items {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .row {
@@ -22,12 +22,11 @@ h1 {
 }
 
 .info-images {
-  max-width: calc((100% / 10) * 2);
+  max-width: 30%;
   max-height: 150px;
 }
 
 .info-text {
-  width: calc((100% / 10) * 2.5);
   position: relative;
   top: 30px;
 }
@@ -51,4 +50,12 @@ h1 {
   padding: 5px auto;
   width: 20%;
   height: 40px;
+}
+
+.margin-side-40 {
+  margin: auto 40px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
 }
