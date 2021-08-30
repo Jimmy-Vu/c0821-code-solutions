@@ -69,16 +69,23 @@ h4 {
   height: 100%;
 }
 
+.hero-text-overlay {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
 .location-container {
   margin-bottom: 40px;
   background-color: #fafafa;
 }
 
 .learn-more-container {
-  position: relative;
   margin-bottom: 30px;
   padding-left: 80px;
   padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .address-container {
@@ -90,6 +97,11 @@ h4 {
 .justify-space-around {
   display: flex;
   justify-content: space-around;
+}
+
+.justify-space-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-column {
@@ -110,11 +122,15 @@ h4 {
 }
 
 .column-one-fourth {
-  width: calc(100% / 4);
+  width: 25%;
 }
 
 .column-three-fourth {
-  width: calc((100% / 4) * 3);
+  width: 75%;
+}
+
+.column-one-half {
+  width: 50%;
 }
 
 .relative {
@@ -127,19 +143,11 @@ h4 {
 
 #hero-heading {
   color: white;
-
-  /* font-family: 'Tiempos Headline', sans-serif; */
   font-weight: 300;
-  position: absolute;
-  top: 5%;
-  left: 10%;
   width: 35%;
 }
 
 #hero-text {
-  position: absolute;
-  top: 25%;
-  left: 10%;
   color: white;
   width: 40%;
   line-height: 1.5rem;
@@ -162,9 +170,6 @@ h4 {
   padding: 10px;
   border-radius: 4px;
   border-width: 0;
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
 }
 
 #get-started-button-learn-more {
@@ -175,19 +180,5 @@ h4 {
   padding: 10px;
   border-radius: 4px;
   border-width: 0;
-  position: absolute;
-  right: 10%;
-  bottom: 30%;
-}
-
-#company-links {
-  position: absolute;
-  right: 20%;
-  top: -10%;
-}
-
-#product-links {
-  position: absolute;
-  right: 1%;
-  top: -10%;
+  align-self: center;
 }
