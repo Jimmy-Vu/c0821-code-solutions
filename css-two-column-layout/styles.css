@@ -1,0 +1,61 @@
+.container {
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.header-center {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.info-items {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row {
+  display: flex;
+}
+
+.info-images {
+  max-width: 30%;
+  max-height: 150px;
+}
+
+.info-text {
+  position: relative;
+  top: 30px;
+}
+
+.column-one-half {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.button-center {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button-text {
+  color: darkred;
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+  border: 3px solid darkred;
+  padding: 5px auto;
+  width: 20%;
+  height: 40px;
+}
+
+.margin-side-40 {
+  margin: auto 40px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
