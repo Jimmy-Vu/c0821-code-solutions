@@ -34,7 +34,7 @@ h1 {
 .column-one-half {
   display: flex;
   flex-direction: row;
-  width: calc(100% / 2);
+  width: 50%;
 }
 
 .button-center {
