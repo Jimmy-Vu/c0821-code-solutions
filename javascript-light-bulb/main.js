@@ -1,13 +1,17 @@
+var lightStatus = false;
+
 function lightClick(event) {
-  if (light.className === 'light-bulb-off') {
+  if (lightStatus === false) {
     light.className = 'light-bulb-on';
     background.className = 'background-on';
     shadow.className = 'shadow-on';
+    lightStatus = true;
 
-  } else if (light.className === 'light-bulb-on') {
+  } else if (lightStatus === true) {
     light.className = 'light-bulb-off';
     background.className = 'background-off';
     shadow.className = 'shadow-off';
+    lightStatus = false;
   }
 }
 
