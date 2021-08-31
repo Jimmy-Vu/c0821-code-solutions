@@ -1,0 +1,67 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.dark-overlay {
+  background-color: black;
+  opacity: 80%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.open-button {
+  background-color: blueviolet;
+  color: white;
+  border-width: 0;
+  font-size: 22px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  margin: 10px;
+}
+
+.no-button {
+  background-color: orangered;
+  color: white;
+  border-width: 0;
+  font-size: 22px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(44, 37, 37);
+}
+
+.dialog-box {
+  background-color: white;
+  margin: 0;
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+  padding-top: 20px;
+  position: fixed;
+  top: 20%;
+}
+
+.dialog-container {
+  display: none;
+}
+
+.dialog-container-clicked {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
