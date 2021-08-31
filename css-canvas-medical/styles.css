@@ -1,0 +1,184 @@
+footer {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  margin-left: 20px;
+}
+
+header li {
+  list-style-type: none;
+  margin-right: 20px;
+  color: #adadad;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  color: #e8e8ea;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.container {
+  margin: 40px 10%;
+  background-color: white;
+  font-family: 'Avenir', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.text-center {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.image-container {
+  background-color: black;
+}
+
+.hero-image {
+  opacity: 60%;
+  height: 100%;
+}
+
+.hero-text-overlay {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+.location-container {
+  margin-bottom: 40px;
+  background-color: #fafafa;
+}
+
+.learn-more-container {
+  margin-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-container {
+  background-color: #525250;
+  color: white;
+  padding: 80px;
+}
+
+.justify-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.tiempo {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+.small-paragraph {
+  font-size: 14px;
+}
+
+.color-dark-gray {
+  color: #525250;
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.column-three-fourth {
+  width: 75%;
+}
+
+.column-one-half {
+  width: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.line-height-02 {
+  line-height: 0.2rem;
+}
+
+#hero-heading {
+  color: white;
+  font-weight: 300;
+  width: 35%;
+}
+
+#hero-text {
+  color: white;
+  width: 40%;
+  line-height: 1.5rem;
+}
+
+#contact-us-button {
+  color: white;
+  background-color: #2a455f;
+  width: 90px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+#get-started-button-hero {
+  color: white;
+  background-color: #2a455f;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+#get-started-button-learn-more {
+  color: white;
+  background-color: #2a455f;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+  align-self: center;
+}
