@@ -7,7 +7,7 @@ function lightClick(event) {
     shadow.className = 'shadow-on';
     lightStatus = true;
 
-  } else if (lightStatus === true) {
+  } else {
     light.className = 'light-bulb-off';
     background.className = 'background-off';
     shadow.className = 'shadow-off';
