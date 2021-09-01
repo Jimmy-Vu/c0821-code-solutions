@@ -1,0 +1,24 @@
+body {
+  font-family: 'Volkhov', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-bar {
+  border-bottom: 2px solid black;
+}
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: red;
+  border-bottom: 2px solid red;
+}
