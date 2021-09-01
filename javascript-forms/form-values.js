@@ -10,5 +10,5 @@ function handleSubmit(event) {
   formValue.message = form.elements.message.value;
 
   console.log(formValue);
+  document.querySelector('#contact-form').reset();
 }
-document.querySelector('#contact-form').reset();
