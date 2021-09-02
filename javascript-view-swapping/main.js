@@ -16,7 +16,7 @@ function handleTabContainerClick(event) {
     var dataView = event.target.getAttribute('data-view');
 
     for (var x = 0; x < viewList.length; x++) {
-      if (dataView === viewList[i].getAttribute('data-view')) {
+      if (dataView === viewList[x].getAttribute('data-view')) {
         viewList[x].className = 'view';
       } else {
         viewList[x].className = 'hidden';
