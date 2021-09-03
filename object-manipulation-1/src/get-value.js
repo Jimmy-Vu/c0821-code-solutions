@@ -9,12 +9,5 @@
 */
 
 function getValue(object, key) {
-  var value;
-
-  for (var i in object) {
-    if (i === key) {
-      value = object[i];
-    }
-  }
-  return value;
+  return object[key];
 }
