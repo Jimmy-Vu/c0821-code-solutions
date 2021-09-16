@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container display-flex justify-center">
+    <div class="row justify-around align-center">
+      <div>
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div data-view="001" class="image-container display-flex flex-column justify-center view">
+        <img class="main-image" src="images/001.png">
+        <div class="button-container display-flex justify-around">
+          <i data-view="001" class="fas fa-circle status-buttons"></i>
+          <i data-view="004" class="far fa-circle status-buttons"></i>
+          <i data-view="007" class="far fa-circle status-buttons"></i>
+          <i data-view="025" class="far fa-circle status-buttons"></i>
+          <i data-view="039" class="far fa-circle status-buttons"></i>
+        </div>
+      </div>
+      <div data-view="004" class=" hidden image-container display-flex flex-column justify-center view">
+        <img class="main-image" src="images/004.png">
+        <div class="button-container display-flex justify-around">
+          <i data-view="001" class="far fa-circle status-buttons"></i>
+          <i data-view="004" class="fas fa-circle status-buttons"></i>
+          <i data-view="007" class="far fa-circle status-buttons"></i>
+          <i data-view="025" class="far fa-circle status-buttons"></i>
+          <i data-view="039" class="far fa-circle status-buttons"></i>
+        </div>
+      </div>
+      <div data-view="007" class=" hidden image-container display-flex flex-column justify-center view">
+        <img class="main-image" src="images/007.png">
+        <div class="button-container display-flex justify-around">
+          <i data-view="001" class="far fa-circle status-buttons"></i>
+          <i data-view="004" class="far fa-circle status-buttons"></i>
+          <i data-view="007" class="fas fa-circle status-buttons"></i>
+          <i data-view="025" class="far fa-circle status-buttons"></i>
+          <i data-view="039" class="far fa-circle status-buttons"></i>
+        </div>
+      </div>
+      <div data-view="025" class=" hidden image-container display-flex flex-column justify-center view">
+        <img class="main-image" src="images/025.png">
+        <div class="button-container display-flex justify-around">
+          <i data-view="001" class="far fa-circle status-buttons"></i>
+          <i data-view="004" class="far fa-circle status-buttons"></i>
+          <i data-view="007" class="far fa-circle status-buttons"></i>
+          <i data-view="025" class="fas fa-circle status-buttons"></i>
+          <i data-view="039" class="far fa-circle status-buttons"></i>
+        </div>
+      </div>
+      <div data-view="039" class=" hidden image-container display-flex flex-column justify-center view">
+        <img class="main-image" src="images/039.png">
+        <div class="button-container display-flex justify-around">
+          <i data-view="001" class="far fa-circle status-buttons"></i>
+          <i data-view="004" class="far fa-circle status-buttons"></i>
+          <i data-view="007" class="far fa-circle status-buttons"></i>
+          <i data-view="025" class="far fa-circle status-buttons"></i>
+          <i data-view="039" class="fas fa-circle status-buttons"></i>
+        </div>
+      </div>
+      <div>
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
