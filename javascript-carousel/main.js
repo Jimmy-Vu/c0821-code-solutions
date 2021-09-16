@@ -1,12 +1,15 @@
 var buttonContainer = document.querySelectorAll('.button-container');
+var buttonList = document.querySelectorAll('.fa-circle');
 var dataViews = document.querySelectorAll('.view');
 
 function switchViews(string) {
   for (var i = 0; i < dataViews.length; i++) {
     if (string === dataViews[i].getAttribute('data-view')) {
-      dataViews[i].className = 'image-container display-flex flex-column justify-center view';
+      dataViews[i].className = ' view';
+      buttonList[i].className = 'fas fa-circle status-buttons';
     } else {
-      dataViews[i].className = 'hidden image-container display-flex flex-column justify-center view';
+      dataViews[i].className = 'hidden view';
+      buttonList[i].className = 'far fa-circle status-buttons';
     }
   }
 }
