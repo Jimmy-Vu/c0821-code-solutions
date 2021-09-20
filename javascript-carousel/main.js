@@ -32,6 +32,7 @@ function rightChevronClick(event) {
 
   switchViews(dataViews[currentIndex].getAttribute('data-view'));
   clearInterval(carouselIntervalID);
+  carouselIntervalID = setInterval(autoClick, 3 * 1000);
 }
 
 function autoClick(event) {
@@ -52,6 +53,7 @@ function leftChevronClick(event) {
   }
   switchViews(dataViews[currentIndex].getAttribute('data-view'));
   clearInterval(carouselIntervalID);
+  carouselIntervalID = setInterval(autoClick, 3 * 1000);
 }
 for (var i = 0; i < buttonContainer.length; i++) {
   buttonContainer[i].addEventListener('click', buttonListener);
@@ -65,4 +67,5 @@ function buttonListener(event) {
   }
   switchViews(event.target.getAttribute('data-view'));
   clearInterval(carouselIntervalID);
+  carouselIntervalID = setInterval(autoClick, 3 * 1000);
 }
