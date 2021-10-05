@@ -1,0 +1,500 @@
+  118  git branch issue-2-view-an-entry
+  119  git switch issue-2-view-an-entry
+  120  git status
+  121  git add -u
+  122  git status
+  123  git commit -m "Add some dummy journal entries to the unordered list in the HTML and style them to match the wireframe. #2"
+  124  git status
+  125  git add -u
+  126  git commit -m "Add some dummy journal entries to the unordered list in the HTML and style them to match the wireframe. #2"
+  127  git push origin issue-2-view-an-entry
+  128  git status
+  129  git status
+  130  git add -u
+  131  git commit -m "Check that the entries list looks good on both mobile and desktop screens. #2"
+  132  git push origin issue-2-view-an-entry
+  133  git status
+  134  git add -u
+  135  git commit -m "Define a function that takes a single journal entry object and returns a DOM tree that matches one of the example entries in the HTML. #2"
+  136  git push origin issue-2-view-an-entry
+  137  git status
+  138  git add -u
+  139  git commit -m "Use a loop to create a DOM tree for each journal entry in the data model and append it to the page when the 'DOMContentLoaded' event is fired. #2"
+  140  git push origin issue-2-view-an-entry
+  141  git status
+  142  git add -u
+  143  git commit -m "Remove the example HTML entries once the user's entries are successfully being appended to the DOM on page load. #2"
+  144  git push origin issue-2-view-an-entry
+  145  git status
+  146  git add -u
+  147  git commit -m "Ensure that submitting a new journal entry also creates a new DOM tree for it and adds it to the page #2"
+  148  git push origin issue-2-view-an-entry
+  149  git status
+  150  git add -u
+  151  git commit -m "Ensure that submitting a new journal entry automatically shows the 'entries' view without reloading the page. #2"
+  152  git push origin issue-2-view-an-entry
+  153  git status
+  154  git status
+  155  git switch master
+  156  git branch --list
+  157  git status
+  158  git pull origin master
+  159  git switch issue-2-view-an-entry
+  160  git status
+  161  git add -u
+  162  git commit -m "Added no entries found text. #2"
+  163  git push origin issue-2-view-an-entry
+  164  git status
+  165  git add -u
+  166  git commit -m "Made changes to the switching view functionality #2"
+  167  git add -u
+  168  git commit -m "Made changes to the switching view functionality #2"
+  169  git status
+  170  git push origin issue-2-view-an-entry
+  171  git status
+  172  git status
+  173  git add -u
+  174  git commit -m "Made changes to naming convention of view containers and corrected empty array condition #2"
+  175  git push origin issue-2-view-an-entry
+  176  git status
+  177  git switch master
+  178  git commit 
+  179  git restore -u
+  180  git stash
+  181  git switch master
+  182  git branch issue-3-edit-an-entry
+  183  git switch issue-3-edit-an-entry
+  184  git status
+  185  git switch master
+  186  git pull origin master
+  187  git status
+  188  git branch -d issue-3-edit-an-entry
+  189  git branch --list
+  190  git branch issue-3-edit-an-entry
+  191  git switch issue-3-edit-an-entry
+  192  git status
+  193  git add -u
+  194  git status
+  195  git commit -m "Update entry rendering function to include an edit icon for each rendered entry. #3"
+  196  git push origin issue-3-edit-an-entry
+  197  git status
+  198  git add -u
+  199  git commit -m "Ensure that each rendered entry is given a data-entry-id attribute indicating which entry it is. #3"
+  200  git push origin issue-3-edit-an-entry
+  201  git status
+  202  git add -u
+  203  git commit -m "Show the entry form if an edit icon was clicked. #3"
+  204  git push origin issue-3-edit-an-entry
+  205  git status
+  206  git status
+  207  git add -u
+  208  git commit -m "Find the matching entry object in the data model and assign it to the data model's editing property if an edit icon was clicked. #3"
+  209  git push origin issue-3-edit-an-entry
+  210  git status
+  211  git add -u
+  212  git commit -m "Pre-populate the entry form with the clicked entry's values from the object found in the data model. #3"
+  213  git push origin issue-3-edit-an-entry
+  214  git status
+  215  git add -u
+  216  git commit -m "Update the entry form's submit handler function to conditionally add a new entry object or update the existing one. #3"
+  217  git push origin issue-3-edit-an-entry
+  218  git status
+  219  git add -u
+  220  git commit -m "Update the entry form's submit handler function to conditionally add a new entry DOM tree or replace the existing one. #3"
+  221  git push origin issue-3-edit-an-entry
+  222  git status
+  223  git add -u
+  224  git status
+  225  git commit -m "Fix all errors #3"
+  226  git status
+  227  git push origin issue-3-edit-an-entry
+  228  git status
+  229  git stash
+  230  git status
+  231  git switch master
+  232  git status
+  233  git branch issue-4-delete-an-entry
+  234  git switch issue-4-delete-an-entry
+  235  git status
+  236  git switch master
+  237  git branch -D issue-4-delete-an-entry
+  238  git pull origin master
+  239  git branch issue-4-delete-an-entry
+  240  git switch issue-4-delete-an-entry
+  241  git switch master
+  242  git pull origin master
+  243  reset
+  244  cd
+  245  pwd
+  246  cd /repos
+  247  ls
+  248  cd /repos
+  249  cd repos
+  250  git clone git@github.com:Kenneth-Y-Wang/week-planner.git
+  251  cd week-planner
+  252  npm ci
+  253  reset
+  254  cd ..
+  255  cd c0821-code-solutions/
+  256  git status
+  257  git pull origin master
+  258  git branch javascript-custom-methods
+  259  git switch javascript-custom-methods
+  260  git status
+  261  git add javascript-custom-methods/
+  262  git status
+  263  git commit -m "Completed javascript-custom-methods"
+  264  git push origin javascript-custom-methods
+  265  git status
+  266  git status
+  267  git switch master
+  268  git pull origin master
+  269  git status
+  270  git branch javascript-this
+  271  git switch javascript-this
+  272  git status
+  273  git add javascript-this/
+  274  git status
+  275  git commit -m "Completed javascript-this exercise."
+  276  git push origin javascript-this
+  277  git switch master
+  278  git pull origin master
+  279  git branch javascript-prototypes
+  280  git switch javascript-prototypes
+  281  git status
+  282  git add javascript-prototypes/
+  283  git status
+  284  git commit -m "Completed javascript-prototypes exercise."
+  285  git status
+  286  git push origin javascript-prototypes
+  287  git status
+  288  git switch master
+  289  git status
+  290  git pull origin master
+  291  git status
+  292  git branch javascript-constructors
+  293  git switch javascript-constructors
+  294  git status
+  295  git add javascript-constructors/
+  296  git status
+  297  git commit -m "Completed javascript-constructors exercise."
+  298  git push origin javascript-constructors
+  299  git status
+  300  git switch master
+  301  git pull origin master
+  302  git branch javascript-bank
+  303  git switch javascript-bank
+  304  git status
+  305  git add javascript-bank/
+  306  git status
+  307  git commit -m "In progress"
+  308  git switch master
+  309  git pull origin master
+  310  git branch javascript-timers
+  311  git switch javascript-timers
+  312  git status
+  313  git add javascript-timers/
+  314  git status
+  315  git commit -m "Completed javascript-timers exercise."
+  316  git push origin javascript-timers
+  317  git status
+  318  git switch master
+  319  git pull origin master
+  320  w
+  321  git status
+  322  git switch javascript-bank
+  323  git status
+  324  git add -u
+  325  git status
+  326  git commit -m "Completed javascript-bank exercise"
+  327  git push origin javascript-bank
+  328  git status
+  329  git switch master
+  330  git status
+  331  git pull origin master
+  332  git branch javascript-carousel
+  333  git switch javascript-carousel
+  334  git status
+  335  git status
+  336  git add javascript-carousel
+  337  git status
+  338  git commit -m "Completed javascript-carousel exercise"
+  339  git status
+  340  git add -u
+  341  git commit -m "Completed javascript-carousel exercise"
+  342  git push origin javascript-carousel
+  343  git status
+  344  git add -u
+  345  git commit -m "In progress"
+  346  git switch master
+  347  git status
+  348  cd ..
+  349  git clone git@github.com:Learning-Fuze/driving-game-instructions.git
+  350  cd driving-game-instructions/
+  351  git pull origin master
+  352  cd ..
+  353  rm driving-game-instructions/
+  354  rm -rf driving-game-instructions/
+  355  ls
+  356  git clone git@github.com:Jimmy-Vu/driving-game.git
+  357  ls
+  358  cd driving-game/
+  359  git pull origin master
+  360  git pull origin master
+  361  npm ci
+  362  git status
+  363  git branch issue-1-see-car
+  364  git switch issue-1-see-car
+  365  git status
+  366  git add -u
+  367  git status
+  368  git add .
+  369  git status
+  370  git status
+  371  git add -u
+  372  git commit -m "Change the CSS to have the background as green #1"
+  373  git add -u
+  374  git commit -m "Change the CSS to have the background as green #1"
+  375  git push origin issue-1-see-car
+  376  git status
+  377  git switch master
+  378  git pull origin master
+  379  git branch issue-2-turn-car
+  380  git switch issue-2-turn-car
+  381  curl -sS https://lfz-static.s3-us-west-1.amazonaws.com/dev-environment/mac-installer.bash | bash
+  382  git status
+  383  git add -u
+  384  git commit -m "Check for errors #3"
+  385  git commit -m "Check for errors #3"
+  386  git commit -m "Check for errors #3"
+  387  git commit -m "Check for errors #3"
+  388  git add -u
+  389  git status
+  390  git commit -m "Check for errors #3"
+  391  git push origin issue-2-turn-car
+  392  git status
+  393  git switch master
+  394  git pull origin master
+  395  git pull origin master
+  396  git branch --list
+  397  git branch issue-3-start-car
+  398  git switch issue-3-start-car
+  399  git status
+  400  git add -u
+  401  git commit -m "In progress."
+  402  git commit -m "In progress."
+  403  git add -u
+  404  git commit -m "In progress."
+  405  git commit -m "Check for errors"
+  406  git status
+  407  git add -u
+  408  git commit -m "Check for errors #5"
+  409  git push origin issue-3-start-car
+  410  git add -u
+  411  git commit -m "Created named functions #5"
+  412  git push origin issue-3-start-car
+  413  git switch master
+  414  git pull origin master
+  415  git status
+  416  git branch issue-4-stop-car
+  417  git switch issue-4-stop-car
+  418  git status
+  419  git status
+  420  git add -u
+  421  git commit -m "Create a boolean for if the car is already started or not #7"
+  422  git add -u
+  423  git commit -m "Check if car is started on space keydown and if it is, clear the interval #7"
+  424  git push origin issue-4-stop-car
+  425  git switch master
+  426  git pull origin master
+  427  git branch issue-5-steer-car
+  428  git switch issue-5-steer-car
+  429  git status
+  430  git add -u
+  431  git commit -m "Check for errors #9"
+  432  git push origin issue-5-steer-car
+  433  git switch master
+  434  git pull origin master
+  435  git add -u
+  436  git commit -m "Changed speed of car"
+  437  cd ..
+  438  cd code-journal/
+  439  git branch --list
+  440  git switch issue-4-delete-an-entry
+  441  git status
+  442  git add -u
+  443  git commit -m "Fix all errors #4"
+  444  git push origin issue-4-delete-an-entry
+  445  cd ..
+  446  cd c0821-code-solutions/
+  447  git status
+  448  git pull origin master
+  449  git branch http-messages
+  450  git switch http-messages
+  451  cd http-messages/
+  452  https httpie.io/hello
+  453  https example.com
+  454  http example.com
+  455  brew install httpie
+  456  https example.com
+  457  https -v example.com
+  458  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+  459  dev-env
+  460  dev-env
+  461  whoami
+  462  dev-env
+  463  cd ../../driving-game/
+  464  cd ../c0821-code-solutions/
+  465  cd array-manipulation-2
+  466  ls
+  467  git branch --list
+  468  git switch array-manipulation-2
+  469  git status
+  470  git add -u
+  471  git commit -m "Completed array-manipulation-2 exercise"
+  472  git push origin array-manipulation-2
+  473  git status
+  474  git switch master
+  475  git pull origin master
+  476  git switch javascript-carousel
+  477  git status
+  478  git add -u
+  479  git commit -m "Changed format of buttons changing and add restart for autobrowse."
+  480  git push origin javascript-carousel
+  481  git switch master
+  482  git switch string-manipulation-2
+  483  git status
+  484  git add -u
+  485  git commit -m "Made changes to capitalize-word.js"
+  486  git push origin string-manipulation-2
+  487  git switch master
+  488  git branch object-manipulation-2
+  489  git switch object-manipulation-2
+  490  git status
+  491  git add -u
+  492  git status
+  493  git add object-manipulation-2
+  494  git status
+  495  git commit -m "Completed object-manipulation-2"
+  496  git status
+  497  git push origin object-manipulation-2
+  498  whoami
+  499  dev-env
+  500  w
+  501  git stauts
+  502  git status
+  503  git switch master
+  504  git pull origin master
+  505  git branch es6-const-let
+  506  git switch es6-const-let
+  507  git status
+  508  git add es6-const-let/
+  509  git commit -m "Completed es6-const-let exercise"
+  510  git push origin es6-const-let
+  511  git status
+  512  git switch master
+  513  git pull origin master
+  514  git branch es6-template-literals
+  515  git switch es6-template-literals
+  516  git status
+  517  git add es6-template-literals/
+  518  git status
+  519  git commit -m "Completed es6-template-literals exercise"
+  520  git push origin es6-template-literals
+  521  git switch master
+  522  git pull origin master
+  523  git branch es6-destructuring
+  524  git switch es6-destructuring
+  525  git status
+  526  git add es6-destructuring/
+  527  git commit -m "Completed es6-destructuring exercise"
+  528  git push origin es6-destructuring
+  529  git switch master
+  530  git pull origin master
+  531  git status
+  532  git pull origin master
+  533  git branch es6-arrow-functions
+  534  git switch es6-arrow-functions
+  535  git statu
+  536  git status
+  537  git add es6-arrow-functions/
+  538  git status
+  539  git commit -m "Completed es6-arrow-functions exercise"
+  540  git push origin es6-arrow-functions/
+  541  git push origin es6-arrow-functions
+  542  git switch master
+  543  git pull origin master
+  544  git branch command-line-basics
+  545  git switch command-line-basics
+  546  cd command-line-basics/
+  547  pwd
+  548  man man
+  549  man cat
+  550  cat laziness.txt
+  551  cat impatience.txt
+  552  cat hubris.txt
+  553  cat laziness.txt impatience.txt hubris.txt
+  554  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  555  cat three-virtues.txt
+  556  ma ls
+  557  man ls
+  558  ls
+  559  ls -a
+  560  ls -F
+  561  ls lfz-staff/
+  562  ls lfz-staff/ -a
+  563  ls lfz-staff -a
+  564  ls lfz-staff -F
+  565  ls lfz-staff/ -F
+  566  ls
+  567  ls lfz-staff
+  568  ls -a lfz-staff 
+  569  ls -F lfz-staff 
+  570  ls -Fa lfz-staff 
+  571  ls -aF lfz-staff > lfz-staff/contents.txt
+  572  cat lfz-staff/contents.txt 
+  573  man pwd
+  574  pwd
+  575  pwd > i-was-here.txt
+  576  cat i-was-here.txt 
+  577  man echo
+  578  echo 'Hello World!'
+  579  echo 'Hello World!' > hello.txt
+  580  ls
+  581  cat hello.txt 
+  582  man touch
+  583  touch tag-youre-it.txt
+  584  ls
+  585  touch snoot/boop.txt
+  586  ls snoot
+  587  man mkdir
+  588  mkdir parent
+  589  ls
+  590  mkdir -p parent/child/grandchild
+  591  ls
+  592  ls parent/
+  593  ls parent/child/
+  594  touch .gitkeep parent/child/grandchild/
+  595* ls -a parent/child/grandchild/.gitkeep
+  596  ls -a parent/child/grandchild/
+  597  ls -a
+  598  touch parent/child/grandchild/.gitkeep
+  599  ls -a
+  600  ls -a parent/child/grandchild/
+  601  man mv
+  602  man mv
+  603  mv pokiemans pokemon
+  604  ls
+  605  man rm
+  606  rm lol.txt 
+  607  ls
+  608  rm -r kill-me/
+  609  ls
+  610  man cp
+  611  cp and-then.txt no-and-then.txt
+  612  ls
+  613  cat and-then.txt no-and-then.txt 
+  614  man history
+  615  man history
+  616  history
+  617  history > command-history.txt
