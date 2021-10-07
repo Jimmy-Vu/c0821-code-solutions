@@ -2,10 +2,8 @@ const data = require('./data.json');
 const fs = require('fs');
 
 function read() {
-  for (let i = 1; i <= data.nextId; i++) {
-    if (data.notes[i] !== undefined) {
-      console.log(`${i}: ${data.notes[i]}`);
-    }
+  for (const property in data.notes) {
+    console.log(`${property}: ${data.notes[property]}`);
   }
 }
 
