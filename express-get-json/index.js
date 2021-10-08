@@ -27,7 +27,7 @@ app.get('/api/grades', (req, res) => {
   for (const x in grades) {
     returnArray.push(grades[x]);
   }
-  res.send(returnArray);
+  res.json(returnArray);
 });
 
 app.listen(3000, () => {
