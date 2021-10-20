@@ -28,7 +28,7 @@ export default class HotButton extends React.Component {
 
   handleClick() {
     this.setState(prevState => {
-      return prevState.counter++;
+      return { counter: prevState.counter + 1 };
     });
   }
 }
