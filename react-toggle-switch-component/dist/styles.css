@@ -1,0 +1,36 @@
+.toggle-holder {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0;
+  padding-top: 0;
+}
+
+.switch-holder {
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 25px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 0 solid black;
+  background-color: white;
+}
+
+.on {
+  background-color: green;
+  justify-content: flex-end;
+}
+
+.off {
+  background-color: gray;
+  justify-content: flex-start;
+}
