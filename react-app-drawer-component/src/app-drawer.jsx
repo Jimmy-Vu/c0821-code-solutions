@@ -16,6 +16,7 @@ class AppDrawer extends React.Component {
     } else {
       return (
       <div className="drawer-opened">
+        <div className="shade" onClick={this.handleClick}></div>
         <div className="menu-holder">
           <h2>Menu</h2>
           <nav className="nav-listing">
@@ -23,8 +24,6 @@ class AppDrawer extends React.Component {
               <li className="margin-bottom-10"><a href="#" className="font-size-20" onClick={this.handleClick}>Get Started</a></li>
               <li className="margin-bottom-10"><a href="#" className="font-size-20" onClick={this.handleClick}>Sign In</a></li>
           </nav>
-        </div>
-          <div className="shade" onClick={this.handleClick}>
         </div>
       </div>
       );

@@ -29,24 +29,25 @@ a:link {
   margin-bottom: 10px;
 }
 
-.hidden {
-  display: none;
-}
-
 .drawer-opened {
-  display: flex;
+  position: relative;
 }
 
 .menu-holder {
+  background-color: white;
   width: 25%;
   height: 100vh;
-  border-right: 3px solid black;
+  border-right: 4px solid black;
+  position: fixed;
+  left: 5px;
+  top: 0;
 }
 
 .shade {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: black;
+  opacity: 80%;
+  width: 100vw;
   height: 100vh;
-  width: 75%;
 }
 
 .nav-listing {
