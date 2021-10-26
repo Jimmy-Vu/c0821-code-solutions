@@ -92,7 +92,8 @@ export default class App extends React.Component {
       .then(data => {
         console.log('hi1');
         this.setState(prevState => {
-          if (prevState.props.toggleCompleted === 'false') {
+          for (let i = 0; i < this.todos.length; i++) {
+          if (this.todos[i].todoId === ) {
             console.log('hi2');
             return {
               isCompleted: 'true'
@@ -100,8 +101,7 @@ export default class App extends React.Component {
           }
         });
       }
-      );
-
+    });
   }
 
   render() {
