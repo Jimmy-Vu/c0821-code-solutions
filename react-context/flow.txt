@@ -1,0 +1,48 @@
+User can sign up.
+	•	The user lands on the home screen with their client rendering the login form.
+
+  •	When the user clicks on the “Register Now” button, the page will navigate to the “#sign-up” href on the anchor element.
+	  ⁃	 The hashchange event is fire from the componentDidMount() on the class app  and the route property of the app state is updated to the new window.location.hash
+
+  •	The action event would fire in auth-form.jsx and
+    ⁃	change the href value of anchor element to ‘#sign-in’
+    ⁃	change text value to “Sign in instead”
+    ⁃	change the text on the submit button to “Register now”
+
+  •	The auth page rerenders
+
+  •	When the user type text into the “Username” and “Password” text inputs, the onChange event fires
+    ⁃	and calls the handleChange function where the name and value is destructured from the text input.
+    ⁃	the state of the AuthForm object is update through setState to reflect what has been typed
+
+  •	The user then would click on the register button which would fire the submit event.
+	  ⁃	On submit, the handleSubmit function is called where it calls the fetch function to send a POST request with a body of the username and password from state to the server
+      ⁃	Upon sending the POST request to the ‘/api/auth/sign-up’ route, the username and passwords are checked for validity,
+      ⁃	The password is then passed through the the hash method of argon2.
+      ⁃	The username and the hashed password is then inserted to a SQL statement and sent through a query of the database
+  	⁃	it then check if the current action was signing up and then change the hash location to “sign-in” to rerender the page.
+
+User can sign in.
+	•	When the user is on the login screen,
+    ⁃	When the user type text into the “Username” and “Password” text inputs, the onChange event fires
+    ⁃	and calls the handleChange function where the name and value is destructured from the text input.
+    ⁃	the state of the AuthForm object is update through setState to reflect what has been typed
+
+  •	The user then would click on the “Log In” button which would fire the submit event.
+    ⁃	On submit, the handleSubmit function is called where it calls the fetch function to send a POST request with a body of the username and password from state to the server
+    ⁃	It is then checked if the user and token properties from the result of the response was returned
+      ⁃	If it is, then the OnSignIn props of the this object is called with the argument of the result
+
+  •	OnSignIn contains the handleSignIn function which is then called
+    ⁃	variables user and token are destructured from the result and the login token is then assigned to the ‘react-context-jwt’ property of localStorage
+    ⁃	the user property of the state object is updated to the value of the user variable
+
+User can stay signed in (even if they refresh the page).
+	•	Upon mounting, the app component takes the token from the ‘react-context-jwt’ property of local storage and
+    ⁃	calls the decodeToken function where
+      ⁃	the token is decoded and assigned the returning payload with the user’s information
+      ⁃	the app state is updated with the user information
+
+User can sign out.
+	•	When the user click on the sign out button in the nav bar, the onClick event fires and calls handleSignOut
+	•	The ‘react-context-jwt’ item in localStorage is removed and the state is updated to reflect no user, page is then rerendered
