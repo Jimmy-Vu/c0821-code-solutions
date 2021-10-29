@@ -52,6 +52,7 @@ export default class App extends React.Component {
     formData.append('image', this.fileInputRef.current.files[0]);
 
     fetch('/api/uploads', { method: 'POST', body: formData })
+      .then(res => res.json())
       .then(parseResponse => {
         console.log(parseResponse);
         this.setState({ caption: '' });
