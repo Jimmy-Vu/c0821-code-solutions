@@ -82,44 +82,25 @@ export default class App extends React.Component {
      * TIP: Be sure to SERIALIZE the updates in the body with JSON.stringify()
      * And specify the "Content-Type" header as "application/json"
      */
-    let isCompletedOpp = {};
     for (let i = 0; i < this.state.todos.length; i++) {
       if (todoId === this.state.todos[i].todoId) {
-        if (this.state.todos[i].isCompleted === true) {
-          isCompletedOpp = { isCompleted: false };
-          fetch(`/api/todos/${todoId}`, {
-            method: 'PATCH',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(isCompletedOpp)
+        const newIsCompleted = !this.state.todos[i].isCompleted;
+        const isCompletedOpp = { isCompleted: newIsCompleted };
+        fetch(`/api/todos/${todoId}`, {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(isCompletedOpp)
+        })
+          .then(res => res.json())
+          .then(data => {
+            this.setState(prevState => {
+              const newArray = this.state.todos.slice();
+              newArray.splice(i, 1, data);
+              return { todos: newArray };
+            });
           })
-            .then(res => res.json())
-            .then(data => {
-              this.setState(prevState => {
-                const newArray = this.state.todos;
-                newArray.splice(i, 1, data);
-                return { todos: newArray };
-              });
-            })
-            .catch(err => console.error(err));
-          break;
-        } else if (this.state.todos[i].isCompleted === false) {
-          isCompletedOpp = { isCompleted: true };
-          fetch(`/api/todos/${todoId}`, {
-            method: 'PATCH',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(isCompletedOpp)
-          })
-            .then(res => res.json())
-            .then(data => {
-              this.setState(prevState => {
-                const newArray = this.state.todos;
-                newArray.splice(i, 1, data);
-                return { todos: newArray };
-              });
-            })
-            .catch(err => console.error(err));
-          break;
-        }
+          .catch(err => console.error(err));
+        break;
       }
     }
 
